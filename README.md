@@ -37,7 +37,7 @@ sudo apt update && sudo apt upgrade
 ```
 This refreshes all package lists from Ubuntu's official repositories (security, main, universe, multiverse, updates, backports) and upgrades any outdated packages.
 
-![apt update output](images/01-apt-update.png)
+![apt update output](/01-apt-update.png)
 
 ### 2. Install prerequisites
 ```bash
@@ -67,7 +67,7 @@ sudo apt install ros-humble-desktop
 ```
 This pulls in a large set of dependencies (build tools, Boost libraries, OpenCV-related packages, RViz2, rqt plugins, etc.) and installs the full desktop variant of ROS 2.
 
-![ROS key setup and desktop install](images/02-ros-key-and-install.png)
+![ROS key setup and desktop install](/02-ros-key-and-install.png)
 
 ### 7. Source ROS 2 automatically in every terminal
 ```bash
@@ -82,7 +82,7 @@ echo $ROS_DISTRO
 ```
 `ros2 -h` should print the full list of available `ros2` subcommands, and `$ROS_DISTRO` should return `humble`.
 
-![Verifying the ROS 2 installation](images/03-ros2-verify.png)
+![Verifying the ROS 2 installation](/03-ros2-verify.png)
 
 ---
 
